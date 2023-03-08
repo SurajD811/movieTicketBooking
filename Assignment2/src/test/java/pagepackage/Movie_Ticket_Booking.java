@@ -26,7 +26,8 @@ public class Movie_Ticket_Booking extends BaseTest {
 	@FindBy(id="2")private WebElement Search_Box;
 	@FindBy(xpath="//input[@placeholder='Search for Movies, Events, Plays, Sports and Activities']")private WebElement Movie_Search;
 	@FindBy(id="page-cta-container")private WebElement Book_Ticket;
-	@FindBy(xpath="//a[@href='/booktickets/FMMA/152504']")private WebElement Select_Time;
+	@FindBy(xpath="//a[@href='/buytickets/pathaan-mumbai/movie-mumbai-ET00323848-MT/20230311']")private WebElement Date;
+	@FindBy(xpath="//a[@href='/booktickets/GATY/56125']")private WebElement Select_Time;
 	@FindBy(id="btnPopupAccept")private WebElement Accept_Terms;	
 	@FindBy(id="pop_4")private WebElement Select_Seats;
 	@FindBy(id="proceed-Qty")private WebElement Proceed;
@@ -81,7 +82,7 @@ public class Movie_Ticket_Booking extends BaseTest {
 
 
 
-@Test
+
 public void Book_Movie_Ticket() throws InterruptedException, AWTException {
 	
 	Select_City.click();
@@ -92,8 +93,9 @@ public void Book_Movie_Ticket() throws InterruptedException, AWTException {
 	rb.keyPress(KeyEvent.VK_ENTER);
 	rb.keyRelease(KeyEvent.VK_ENTER);
 	Book_Ticket.click();
+	Date.click();
 	WebDriverCommonLib wdc= new WebDriverCommonLib();
-	wdc.javaScript(0,400);
+	wdc.javaScript(0,100);
 	Select_Time.click();
 	Accept_Terms.click();
 	Select_Seats.click();
