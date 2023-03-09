@@ -58,6 +58,10 @@ public void Book_Movie_Ticket() throws InterruptedException, AWTException {
 	rb.keyPress(KeyEvent.VK_ENTER);
 	rb.keyRelease(KeyEvent.VK_ENTER);
 	
+	String Title = driver.getTitle();
+	System.out.println(Title);
+	Assert.assertEquals(Title.contains("Pathaan (2023) - Movie | Reviews, Cast & Release Date in mumbai- BookMyShow"), true);
+	
 	//Booking a Movie
 	Book_Ticket.click();
 	
