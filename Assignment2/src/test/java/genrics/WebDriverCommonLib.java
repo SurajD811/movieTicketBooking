@@ -17,5 +17,9 @@ public class WebDriverCommonLib extends BaseTest{
 		JavascriptExecutor js= (JavascriptExecutor)driver;
 		js.executeScript("window.scrollBy("+X+","+Y+")");
 	}
+	
+	public void wait(int x) throws InterruptedException {
+		Thread.sleep(x);
+	}
 
 }

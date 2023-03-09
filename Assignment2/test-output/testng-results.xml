@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-08T20:42:06 IST" name="Default suite" finished-at="2023-03-08T20:43:38 IST" duration-ms="91637">
+  <suite started-at="2023-03-09T08:46:49 IST" name="Default suite" finished-at="2023-03-09T08:48:19 IST" duration-ms="89352">
     <groups>
     </groups>
-    <test started-at="2023-03-08T20:42:06 IST" name="Default test" finished-at="2023-03-08T20:43:38 IST" duration-ms="91637">
+    <test started-at="2023-03-09T08:46:49 IST" name="Default test" finished-at="2023-03-09T08:48:19 IST" duration-ms="89352">
       <class name="testBookMovieTicket.Test_Book_Movie_Ticket">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testBookMovieTicket.Test_Book_Movie_Ticket@18078bef]" started-at="2023-03-08T20:42:06 IST" name="setUp" finished-at="2023-03-08T20:42:41 IST" duration-ms="34306" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testBookMovieTicket.Test_Book_Movie_Ticket@18078bef]" started-at="2023-03-09T08:46:49 IST" name="setUp" finished-at="2023-03-09T08:47:24 IST" duration-ms="34390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testBooking()[pri:0, instance:testBookMovieTicket.Test_Book_Movie_Ticket@18078bef]" started-at="2023-03-08T20:42:41 IST" name="testBooking" finished-at="2023-03-08T20:43:36 IST" duration-ms="55528" status="PASS">
+        <test-method signature="testBooking()[pri:0, instance:testBookMovieTicket.Test_Book_Movie_Ticket@18078bef]" started-at="2023-03-09T08:47:24 IST" name="testBooking" finished-at="2023-03-09T08:48:16 IST" duration-ms="52299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBooking -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testBookMovieTicket.Test_Book_Movie_Ticket@18078bef]" started-at="2023-03-08T20:43:36 IST" name="tearDown" finished-at="2023-03-08T20:43:38 IST" duration-ms="1701" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testBookMovieTicket.Test_Book_Movie_Ticket@18078bef]" started-at="2023-03-09T08:48:16 IST" name="tearDown" finished-at="2023-03-09T08:48:19 IST" duration-ms="2525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
